@@ -1,10 +1,8 @@
-# Pokémon → Pong World Model
+# Pong World Model
 
 A self-supervised **action-controllable video world model**, in the spirit of [Genie](https://arxiv.org/abs/2402.15391). Given a few frames of gameplay and an action, the model predicts the next frame — without ever being told what the actions *are* during pretraining. Actions are discovered automatically from raw video.
 
-The project began on Pokémon (hence the name) and now uses **Pong** as a clean, controllable testbed for proving out the full pipeline end to end. You can play a fully model-generated game of Pong with your keyboard — every frame is hallucinated by the dynamics model.
-
-> **Status:** research codebase under active development. The pipeline works end to end on Pong; Pokémon-scale training is ongoing. Expect rough edges.
+The project began on Pokémon (hence the name) and now uses **Pong** as a clean, controllable testbed for proving out the full pipeline end to end. You can play a fully model-generated game of Pong with your keyboard!
 
 ---
 
