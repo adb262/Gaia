@@ -24,15 +24,15 @@ wandb/
 .env
 *.json
 
-data
-!scripts/data/
+# Top-level dataset download dir only (NOT src/data or scripts/data)
+/data/
 scripts/data/*
-!scripts/data/generate_two_player_pong.py
-!scripts/data/visualize_two_player_pong_npz.py
+!scripts/data/*.py
 runs/
 tokenizer_runs/
 
 .commands.txt
-dynamics_model*
+# Root-level training output dirs only (NOT scripts/dynamics_model)
+/dynamics_model*
 post_trained/*
 action_mapping_runs/*
